@@ -1,0 +1,144 @@
+:root {
+	--dark-grey: #60575a;
+	--light-pink: #f9d3e5;
+	--dark-pink: #c5a7b6;
+	/* --footer-top: rgb(146, 253, 185); */
+	/* --footer-top: rgb(2, 208, 134); */
+	/* --footer-top-high: rgb(1, 90, 137); */
+	--footer-top-high: #edeef2;
+	--footer-top-low: #ecb503;
+	/* --footer-top-low: rgb(5, 8, 57); */
+	--footer-bottom: rgb(0, 0, 0);
+	--text-color: black;
+}
+
+/* ------------- main footer stuff ------------- */
+
+footer {
+	margin-top: 20%;
+	color: var(--text-color);
+	/* font-weight: bold; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	scroll-behavior: smooth;
+}
+
+.footer-top {
+	/* background: var(--footer-top-high); */
+	background: linear-gradient(to right, var(--footer-top-high) 30%, var(--footer-top-low));
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80vh;
+}
+
+.footer-bottom {
+	background: var(--footer-bottom);
+	display: flex;
+	justify-content: center;
+	gap: 50%;
+	height: 20vh;
+	align-items: center;
+}
+
+#footer-left, #footer-middle, #footer-right {
+	width: 34%;
+	margin-left: auto;
+	margin: 5%;
+}
+
+/* ------------- end of main footer stuff ------------- */
+
+/* -------------- footer form stuff ------------- */
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+footer input, button {
+	box-sizing: border-box;
+	border: none;
+	margin-bottom: 2%;
+	padding: 5%;
+	width: 70%;
+}
+
+footer input:focus {
+	outline: none;
+}
+
+footer button {
+	background-image: linear-gradient(to right, #000000, #000000, #1d4c1d, #4df967);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+	font-family: 'Ysabeau', sans-serif;
+	/* font-weight: bold; */
+	font-size: 20px;
+	background-size: 300% 100%;
+	color: white;
+	transition: all 0.8s ease;
+}
+
+footer button:hover {
+	cursor: pointer;
+	background-position: 100% 0;
+	/* color: black; */
+}
+
+/* -------------- end of footer form stuff ------------- */
+
+#footer-title {
+	display: flex;
+	gap: 30px;
+}
+
+#footer-pawdle {
+	color: var(--text-color);
+	font-size: 2em;
+	font-family: 'Ysabeau', sans-serif;
+}
+
+#footer-image {
+	object-fit: scale-down;
+	width: 60%;
+}
+
+.footer-small-text {
+	font-size: 16px;
+	font-family: 'Ysabeau', sans-serif;
+}
+
+#footer-description {
+	line-height: 2em;
+}
+
+#footer-contact-info {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+}
+
+#footer-right p {
+	color: black;
+}
+
+footer p {
+	font-family: 'Ysabeau', sans-serif;
+	color: var(--text-color);
+}
+
+hr {
+	margin: 0;
+	border-top: 0;
+	border-bottom: 0;
+	background-color: black;
+	height: 1px;
+}
+
+.footer-terms {
+	word-wrap: none;
+	width: 100%;
+	color: white;
+	font-weight: 100;
+}

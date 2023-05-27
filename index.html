@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grizzly - Don't trust your gut. Trust theirs.</title>
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div id="nav-div-left">
+				<h1>Grizzly</h1>
+				<input type="text" placeholder="Search">
+				<img src="Images/search-interface-symbol.png" alt="search icon" id="search-icon">
+			</div>
+
+			<div id="nav-div-right">
+				<a href="#">Restaurants</a>
+				<a href="#">Menus</a>
+				<a href="#">Download the app</a>
+				<img src="Images/Nader Amir.jpg" alt="profile picture" id="profile-pic">
+			</div>
+		</nav>
+	</header>
+
+	<hr>
+
+	<div id="container">
+		<div id="big2">
+			<img src="Images/big2/browse.png" alt="browse reviews" class="big2-image" id="big2-left">
+			<img src="Images/big2/write.png" alt="write your own" class="big2-image" id="big2-right">
+		</div>
+
+		<div id="categories">
+			<div class="category-option" id="0" onclick="TurnBorderBlue('0')">
+				<img src="Images/categoryIcons/pizza.png" alt="pizza" class="category-image">
+				<p>Pizza</p>
+			</div>
+
+			<div class="category-option" id="1" onclick="TurnBorderBlue('1')">
+				<img src="Images/categoryIcons/burger.png" alt="burger" class="category-image">
+				<p>Burger</p>
+			</div>
+
+			<div class="category-option" id="2" onclick="TurnBorderBlue('2')">
+				<img src="Images/categoryIcons/seafood.png" alt="seafood" class="category-image">
+				<p>Seafood</p>
+			</div>
+
+			<div class="category-option" id="3" onclick="TurnBorderBlue('3')">
+				<img src="Images/categoryIcons/sushi.png" alt="sushi" class="category-image">
+				<p>Sushi</p>
+			</div>
+
+			<div class="category-option" id="4" onclick="TurnBorderBlue('4')">
+				<img src="Images/categoryIcons/vegan.png" alt="vegan" class="category-image">
+				<p>Vegan</p>
+			</div>
+
+			<div class="category-option" id="5" onclick="TurnBorderBlue('5')">
+				<img src="Images/categoryIcons/desserts.png" alt="desserts" class="category-image">
+				<p>Desserts</p>
+			</div>
+		</div>
+
+		<div id="restaurants-title-div">
+			<h2>Top rated restaurants this week</h2>
+		</div>
+
+		<div id="restaurant-grid">
+			<div class="grid-item">
+				<img src="Images/sushi/sushi.jpg" alt="">
+				<p class="restaurant-name">Royal Sushi House</p>
+				<p class="time">30-40 min</p>
+				<div class="tag">
+					<img src="Images/categoryIcons/sushi.png" alt="">
+					<p>Sushi</p>
+				</div>
+			</div>
+			<div class="grid-item">
+				<img src="Images/sushi/sushi2.jpg" alt="">
+				<p class="restaurant-name">Ninja Sushi</p>
+				<p class="time">20-40 min</p>
+				<div class="tag">
+					<img src="Images/categoryIcons/sushi.png" alt="">
+					<p>Sushi</p>
+				</div>
+			</div>
+			<div class="grid-item">
+				<img src="Images/sushi/sushi3.jpg" alt="">
+				<p class="restaurant-name">Sushi Master</p>
+				<p class="time">60-70 min</p>
+				<div class="tag">
+					<img src="Images/categoryIcons/sushi.png" alt="">
+					<p>Sushi</p>
+				</div>
+			</div>
+			<div class="grid-item">
+				<img src="Images/sushi/sushi4.jpg" alt="">
+				<p class="restaurant-name">Japanese Sushi</p>
+				<p class="time">30-50 min</p>
+				<div class="tag">
+					<img src="Images/categoryIcons/sushi.png" alt="">
+					<p>Sushi</p>
+				</div>
+			</div>
+			<div class="grid-item">
+				<img src="Images/sushi/sushi5.jpg" alt="">
+				<p class="restaurant-name">Kobe</p>
+				<p class="time">20-30 min</p>
+				<div class="tag">
+					<img src="Images/categoryIcons/sushi.png" alt="">
+					<p>Sushi</p>
+				</div>
+			</div>
+			<div class="grid-item">
+				<img src="Images/sushi/sushi6.jpg" alt="">
+				<p class="restaurant-name">Wassupi</p>
+				<p class="time">40-60 min</p>
+				<div class="tag">
+					<img src="Images/categoryIcons/sushi.png" alt="">
+					<p>Sushi</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="footer">
+		<div class="footer-top">
+			<div id="footer-left">
+				<div id="footer-title">
+					<img src="Images/logo.png" alt="logo" id="footer-image">
+				</div>
+	
+				<div id="footer-description" class="footer-small-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id eu nisl nunc mi ipsum. Commodo viverra maecenas accumsan lacus vel facilisis volutpat.
+				</div>
+	
+				<div id="footer-socials">
+	
+				</div>
+			</div>
+	
+			<div id="footer-middle">
+				<div>
+					<p>CONTACT US</p>
+				</div>
+	
+				<div id="footer-contact-info">
+					<div class="footer-small-text">
+						Address: 15 Khaled Ibn El-Walid St., Gesr El-Suez
+					</div>
+	
+					<div class="footer-small-text">
+						Phone: 01208680458
+					</div>
+	
+					<div class="footer-small-text">
+						Email: cs-reply@grizzly.com
+					</div>
+				</div>
+			</div>
+	
+			<div id="footer-right">
+				<div>
+					<p>SUBSCRIBE</p>
+				</div>
+	
+				<form method="post">
+					<input type="text" name="name" placeholder="Name">
+					<input type="email" name="email" placeholder="Email">
+					<button type="submit">Subscribe</button>
+				</form>
+			</div>
+		</div>
+	
+		<hr>
+	
+		<div class="footer-bottom">
+			<small><p class="footer-terms">Terms of use | Privacy Environmental Policy</p></small>
+			<small><p class="footer-terms">Copyright 2019 Grizzly. All Rights Reserved.</p></small>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
